@@ -54,7 +54,7 @@
         </init-param>
         <init-param>
             <param-name>proxyCallbackUrl</param-name>
-            <param-value>https://cas-performance-tests.herokuapp.com/protected-web-app/proxyUrl</param-value>
+            <param-value>https://protected-web-app.herokuapp.com/protected-web-app/proxyUrl</param-value>
         </init-param>
     </filter>
 
