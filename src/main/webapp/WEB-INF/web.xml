@@ -3,7 +3,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">         
-<!--
     <filter>
         <filter-name>Capture PGT Filter</filter-name>
         <filter-class>org.apereo.cas.filter.CapturePGTFilter</filter-class>
@@ -12,7 +11,7 @@
         <filter-name>Capture PGT Filter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
--->	
+
     <filter>
         <filter-name>CAS Authentication Filter</filter-name>
         <filter-class>org.jasig.cas.client.authentication.AuthenticationFilter</filter-class>
