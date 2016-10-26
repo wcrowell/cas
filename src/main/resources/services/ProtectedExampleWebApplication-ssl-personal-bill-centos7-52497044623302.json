@@ -1,6 +1,6 @@
 {
   "@class" : "org.apereo.cas.services.RegexRegisteredService",
-  "serviceId" : "https://protected-web-app.herokuapp.com/protected-web-app/.*",
+  "serviceId" : "https://protected-web-app.herokuapp.com/protected-web-app.*",
   "name" : "CAS Example Protected Web Application via TLS",
   "id" : 52497044623302,
   "description" : "Protected CAS Client  Web Application",
