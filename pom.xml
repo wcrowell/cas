@@ -108,17 +108,17 @@
 -->
     </dependencies>
     <properties>
-<!--
         <cas.version>5.0.0.RC4-SNAPSHOT</cas.version>
--->
+<!--
         <cas.version>4.2.6</cas.version>
+-->
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 <!--
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
 -->
-        <org>jasig</org>
+        <org>apereo</org>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <repositories>
