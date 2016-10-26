@@ -21,7 +21,7 @@
         </init-param>
         <init-param>
             <param-name>serverName</param-name>
-            <param-value>https://cas-performance-tests.herokuapp.com</param-value>
+            <param-value>https://protected-web-app.herokuapp.com</param-value>
         </init-param>
     </filter>
 
@@ -34,7 +34,7 @@
         </init-param>
         <init-param>
             <param-name>serverName</param-name>
-            <param-value>https://protected-web-app.herokuapp.com</param-value>
+            <param-value>https://cas-performance-tests.herokuapp.com</param-value>
         </init-param>
         <init-param>
             <param-name>redirectAfterValidation</param-name>
