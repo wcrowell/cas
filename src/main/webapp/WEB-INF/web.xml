@@ -42,7 +42,7 @@
         </init-param>
         <init-param>
             <param-name>useSession</param-name>
-            <param-value>true</param-value>
+            <param-value>false</param-value>
         </init-param>
         <init-param>
             <param-name>acceptAnyProxy</param-name>
