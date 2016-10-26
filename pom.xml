@@ -109,6 +109,8 @@
             <groupId>org.jasig.cas</groupId>
             <artifactId>cas-server-support-rest</artifactId>
             <version>${cas.version}</version>
+            <type>jar</type>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
     <properties>
