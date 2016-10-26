@@ -25,16 +25,12 @@ public class CapturePGTFilter implements Filter {
 	 * @see Filter#doFilter(ServletRequest, ServletResponse, FilterChain)
 	 */
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-		System.out.println("1");
 		if (request.getParameterMap().containsKey("requestPgtId")) {
-			System.out.println("2");
 			String pgtIou = request.getParameter("pgtIou");
 			
-			System.out.println("Getting pgtId for pgtIou: " + pgtIou);
 			logger.fine("Getting pgtId for pgtIou: " + pgtIou);
 			
 			String pgtId = pgtMap.get(pgtIou);
-			System.out.println("pgtId for pgtIou was: " + pgtId);
 			logger.fine("pgtId for pgtIou was: " + pgtId);
 			
 			response.getWriter().write(pgtId);
@@ -42,16 +38,12 @@ public class CapturePGTFilter implements Filter {
 			// No need to pass call along the filter chain as this is a specialized case.
 			return;
 		} else {
-			System.out.println("3");
 			if (request.getParameterMap().containsKey("pgtIou")) {
-				System.out.println("4");
-				System.out.println("Found pgtIou");
 				logger.fine("Found pgtIou");
 	
 				String pgtIou = request.getParameter("pgtIou");
 				String pgtId = request.getParameter("pgtId");
 	
-				System.out.println("pgtIou is " + pgtIou + " pgtId is " + pgtId);
 				logger.fine("pgtIou is " + pgtIou + " pgtId is " + pgtId);
 				pgtMap.put(pgtIou, pgtId);
 			}
