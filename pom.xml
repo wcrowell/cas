@@ -54,6 +54,7 @@
                 <version>2.6</version>
                 <configuration>
                     <warName>cas</warName>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
                     <overlays>
                         <overlay>
                             <groupId>org.apereo.cas</groupId>
