@@ -97,6 +97,7 @@
             <type>jar</type>
             <scope>runtime</scope>
         </dependency>
+<!--
         <dependency>
             <groupId>org.${org}.cas</groupId>
             <artifactId>cas-server-support-json-service-registry</artifactId>
@@ -104,6 +105,7 @@
             <type>jar</type>
             <scope>runtime</scope>
         </dependency>
+-->
     </dependencies>
     <properties>
 <!--
