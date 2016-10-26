@@ -60,7 +60,7 @@
                 <version>2.6</version>
                 <configuration>
                     <warName>cas</warName>
-                    <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+                    <webXml>src/main/webapp/WEB-INF/web2.xml</webXml>
 <!--
                     <failOnMissingWebXml>false</failOnMissingWebXml>
 -->
