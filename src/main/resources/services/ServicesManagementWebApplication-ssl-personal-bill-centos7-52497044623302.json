@@ -1,27 +1,27 @@
 {
-  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "@class" : "org.jasig.cas.services.RegexRegisteredService",
   "serviceId" : "https://cas-services.herokuapp.com/cas-services.*",
   "name" : "Services Management Web Application",
   "id" : 52497044623309,
   "description" : "Services Management Web Application",
   "proxyPolicy" : {
-    "@class" : "org.apereo.cas.services.RefuseRegisteredServiceProxyPolicy"
+    "@class" : "org.jasig.cas.services.RefuseRegisteredServiceProxyPolicy"
   },
   "evaluationOrder" : 2,
   "usernameAttributeProvider" : {
-    "@class" : "org.apereo.cas.services.DefaultRegisteredServiceUsernameProvider"
+    "@class" : "org.jasig.cas.services.DefaultRegisteredServiceUsernameProvider"
   },
   "logoutType" : "BACK_CHANNEL",
   "attributeReleasePolicy" : {
-    "@class" : "org.apereo.cas.services.ReturnAllowedAttributeReleasePolicy",
+    "@class" : "org.jasig.cas.services.ReturnAllowedAttributeReleasePolicy",
     "principalAttributesRepository" : {
-      "@class" : "org.apereo.cas.authentication.principal.DefaultPrincipalAttributesRepository"
+      "@class" : "org.jasig.cas.authentication.principal.DefaultPrincipalAttributesRepository"
     },
     "authorizedToReleaseCredentialPassword" : false,
     "authorizedToReleaseProxyGrantingTicket" : false
   },
   "accessStrategy" : {
-    "@class" : "org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy",
+    "@class" : "org.jasig.cas.services.DefaultRegisteredServiceAccessStrategy",
     "enabled" : true,
     "ssoEnabled" : true
   }
